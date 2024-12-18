@@ -1,8 +1,52 @@
-# React + Vite
+# React + Vite + AntDesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Этот проект выполнен в рамках тестового задания с использованием React и библиотеки компонентов AntDesign.
 
-Currently, two official plugins are available:
+## **Описание задания**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Выбор фреймворка**: Использовать один из предложенных фреймворков — AntDesign, MaterialUI, Quasar. В данном проекте выбран **AntDesign**.
+2. **Условия**:
+   - Сервер отсутствует. Все данные работают локально.
+   - Реализация должна быть функциональной без наличия сервера.
+
+## **Функционал**
+
+1. **Страницы логина**:
+   - Вход в систему.
+   - Сброс пароля.
+   - Начальная внутренняя страница системы (Dashboard).
+   
+2. **Страница отчета**:
+   - Возможность выбора диапазона дат.
+   - Отображение данных в таблице (5-7 колонок).
+   - Динамическое отображение данных в зависимости от выбранных параметров.
+
+## **Технологии**
+
+- **React**: библиотека для создания интерфейсов.
+- **Vite**: инструмент для разработки и сборки проекта.
+- **AntDesign**: библиотека готовых компонентов.
+- **Day.js**: работа с датами.
+- **React Router**: маршрутизация между страницами.
+
+## **Как запустить проект**
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/<ваш-логин>/<имя-репозитория>.git
+   cd <имя-репозитория>
+
+2. Установите зависимости:
+   ```bash
+   npm install
+
+3. Запустите проект:
+   ```bash
+   npm run dev
+
+4. Запустите проект:Перейдите по адресу http://localhost:5173.
+
+## **Как проверить функционал**
+1. Перейдите на страницу логина (/).
+2. Введите данные и нажмите "Войти". После этого откроется Dashboard.
+3. На странице отчета (/report) выберите диапазон дат и сгенерируйте таблицу.
